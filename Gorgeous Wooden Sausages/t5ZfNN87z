@@ -1,0 +1,163 @@
+{
+ "meta": {
+  "type": "db",
+  "canSave": true,
+  "canEdit": true,
+  "canAdmin": true,
+  "canStar": true,
+  "canDelete": true,
+  "slug": "dashboard-example3",
+  "url": "/d/t5ZfNN87z/dashboard-example3",
+  "expires": "0001-01-01T00:00:00Z",
+  "created": "2022-04-08T23:12:58+02:00",
+  "updated": "2022-04-08T23:12:58+02:00",
+  "updatedBy": "admin",
+  "createdBy": "admin",
+  "version": 1,
+  "hasAcl": false,
+  "isFolder": false,
+  "folderId": 194,
+  "folderUid": "21300fde-6c2c-47ae-b9e1-30bfb10a91c3",
+  "folderTitle": "Gorgeous Wooden Sausages",
+  "folderUrl": "/dashboards/f/21300fde-6c2c-47ae-b9e1-30bfb10a91c3/gorgeous-wooden-sausages",
+  "provisioned": false,
+  "provisionedExternalId": "",
+  "annotationsPermissions": {
+   "dashboard": {
+    "canAdd": false,
+    "canEdit": false,
+    "canDelete": false
+   },
+   "organization": {
+    "canAdd": false,
+    "canEdit": false,
+    "canDelete": false
+   }
+  }
+ },
+ "dashboard": {
+  "annotations": {
+   "list": [
+    {
+     "builtIn": 1,
+     "datasource": {
+      "type": "grafana",
+      "uid": "-- Grafana --"
+     },
+     "enable": true,
+     "hide": true,
+     "iconColor": "rgba(0, 211, 255, 1)",
+     "name": "Annotations \u0026 Alerts",
+     "target": {
+      "limit": 100,
+      "matchAny": false,
+      "tags": [],
+      "type": "dashboard"
+     },
+     "type": "dashboard"
+    }
+   ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "hideControls": false,
+  "id": 233,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+   {
+    "datasource": {
+     "type": "testdata",
+     "uid": "PD8C576611E62080A"
+    },
+    "fieldConfig": {
+     "defaults": {
+      "color": {
+       "mode": "palette-classic"
+      },
+      "custom": {
+       "axisLabel": "",
+       "axisPlacement": "auto",
+       "barAlignment": 0,
+       "drawStyle": "line",
+       "fillOpacity": 0,
+       "gradientMode": "none",
+       "hideFrom": {
+        "legend": false,
+        "tooltip": false,
+        "viz": false
+       },
+       "lineInterpolation": "linear",
+       "lineWidth": 1,
+       "pointSize": 5,
+       "scaleDistribution": {
+        "type": "linear"
+       },
+       "showPoints": "auto",
+       "spanNulls": false,
+       "stacking": {
+        "group": "A",
+        "mode": "none"
+       },
+       "thresholdsStyle": {
+        "mode": "off"
+       }
+      },
+      "mappings": [],
+      "thresholds": {
+       "mode": "absolute",
+       "steps": [
+        {
+         "color": "green",
+         "value": null
+        },
+        {
+         "color": "red",
+         "value": 80
+        }
+       ]
+      }
+     },
+     "overrides": []
+    },
+    "gridPos": {
+     "h": 9,
+     "w": 12,
+     "x": 0,
+     "y": 0
+    },
+    "id": 2,
+    "options": {
+     "legend": {
+      "calcs": [],
+      "displayMode": "list",
+      "placement": "bottom"
+     },
+     "tooltip": {
+      "mode": "single",
+      "sort": "none"
+     }
+    },
+    "title": "Panel Title",
+    "type": "timeseries"
+   }
+  ],
+  "schemaVersion": 36,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+   "list": []
+  },
+  "time": {
+   "from": "now-6h",
+   "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "dashboard example3",
+  "uid": "t5ZfNN87z",
+  "version": 1,
+  "weekStart": ""
+ }
+}
