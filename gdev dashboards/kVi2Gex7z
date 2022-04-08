@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "type": "db",
+  "canSave": true,
+  "canEdit": true,
+  "canAdmin": true,
+  "canStar": true,
+  "canDelete": true,
+  "slug": "test-variable-output",
+  "url": "/d/kVi2Gex7z/test-variable-output",
+  "expires": "0001-01-01T00:00:00Z",
+  "created": "2022-02-11T13:46:46+01:00",
+  "updated": "2022-02-11T13:46:46+01:00",
+  "updatedBy": "Anonymous",
+  "createdBy": "Anonymous",
+  "version": 1,
+  "hasAcl": false,
+  "isFolder": false,
+  "folderId": 1,
+  "folderUid": "TkN2dtXMk",
+  "folderTitle": "gdev dashboards",
+  "folderUrl": "/dashboards/f/TkN2dtXMk/gdev-dashboards",
+  "provisioned": true,
+  "provisionedExternalId": "feature-templating/testdata-test-variable-output.json",
+  "annotationsPermissions": {
+   "dashboard": {
+    "canAdd": false,
+    "canEdit": false,
+    "canDelete": false
+   },
+   "organization": {
+    "canAdd": false,
+    "canEdit": false,
+    "canDelete": false
+   }
+  }
+ },
+ "dashboard": {
+  "__elements": [],
+  "__inputs": [],
+  "__requires": [
+   {
+    "id": "grafana",
+    "name": "Grafana",
+    "type": "grafana",
+    "version": "8.4.0-pre"
+   },
+   {
+    "id": "text",
+    "name": "Text",
+    "type": "panel",
+    "version": ""
+   }
+  ],
+  "annotations": {
+   "list": [
+    {
+     "builtIn": 1,
+     "datasource": "-- Grafana --",
+     "enable": true,
+     "hide": true,
+     "iconColor": "rgba(0, 211, 255, 1)",
+     "name": "Annotations \u0026 Alerts",
+     "target": {
+      "limit": 100,
+      "matchAny": false,
+      "tags": [],
+      "type": "dashboard"
+     },
+     "type": "dashboard"
+    }
+   ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 229,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+   {
+    "gridPos": {
+     "h": 9,
+     "w": 12,
+     "x": 0,
+     "y": 0
+    },
+    "id": 2,
+    "options": {
+     "content": "VariableUnderTest: $VariableUnderTest",
+     "mode": "markdown"
+    },
+    "pluginVersion": "8.4.0-pre",
+    "title": "Panel Title",
+    "type": "text"
+   }
+  ],
+  "schemaVersion": 35,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+   "list": []
+  },
+  "time": {
+   "from": "now-6h",
+   "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Test variable output",
+  "uid": "kVi2Gex7z",
+  "version": 1,
+  "weekStart": ""
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "meta": {
+  "type": "db",
+  "canSave": true,
+  "canEdit": true,
+  "canAdmin": true,
+  "canStar": true,
+  "canDelete": true,
+  "slug": "production-123",
+  "url": "/d/czUAR-CGz/production-123",
+  "expires": "0001-01-01T00:00:00Z",
+  "created": "2021-05-12T14:19:09+02:00",
+  "updated": "2021-05-12T14:19:09+02:00",
+  "updatedBy": "Anonymous",
+  "createdBy": "Anonymous",
+  "version": 1,
+  "hasAcl": false,
+  "isFolder": false,
+  "folderId": 1,
+  "folderUid": "TkN2dtXMk",
+  "folderTitle": "gdev dashboards",
+  "folderUrl": "/dashboards/f/TkN2dtXMk/gdev-dashboards",
+  "provisioned": false,
+  "provisionedExternalId": "",
+  "annotationsPermissions": {
+   "dashboard": {
+    "canAdd": false,
+    "canEdit": false,
+    "canDelete": false
+   },
+   "organization": {
+    "canAdd": false,
+    "canEdit": false,
+    "canDelete": false
+   }
+  }
+ },
+ "dashboard": {
+  "id": 102,
+  "refresh": "25s",
+  "schemaVersion": 16,
+  "tags": [
+   "templated"
+  ],
+  "timezone": "browser",
+  "title": "Production 123",
+  "uid": "czUAR-CGz",
+  "version": 1
+ }
+}
