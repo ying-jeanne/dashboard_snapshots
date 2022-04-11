@@ -6,14 +6,14 @@
   "canAdmin": true,
   "canStar": true,
   "canDelete": true,
-  "slug": "dashboard_5",
-  "url": "/d/HlGos2Unz/dashboard_5",
+  "slug": "dashboard_6",
+  "url": "/d/HlGos2Unz/dashboard_6",
   "expires": "0001-01-01T00:00:00Z",
   "created": "2022-04-11T11:27:51+02:00",
-  "updated": "2022-04-11T11:27:51+02:00",
+  "updated": "2022-04-11T12:20:31+02:00",
   "updatedBy": "admin",
   "createdBy": "admin",
-  "version": 1,
+  "version": 4,
   "hasAcl": false,
   "isFolder": false,
   "folderId": 179,
@@ -61,7 +61,6 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "hideControls": false,
   "id": 234,
   "links": [],
   "liveNow": false,
@@ -122,10 +121,86 @@
      "overrides": []
     },
     "gridPos": {
-     "h": 9,
+     "h": 8,
      "w": 12,
      "x": 0,
      "y": 0
+    },
+    "id": 4,
+    "options": {
+     "legend": {
+      "calcs": [],
+      "displayMode": "list",
+      "placement": "bottom"
+     },
+     "tooltip": {
+      "mode": "single",
+      "sort": "none"
+     }
+    },
+    "title": "Panel Title",
+    "type": "timeseries"
+   },
+   {
+    "datasource": {
+     "type": "testdata",
+     "uid": "PD8C576611E62080A"
+    },
+    "fieldConfig": {
+     "defaults": {
+      "color": {
+       "mode": "palette-classic"
+      },
+      "custom": {
+       "axisLabel": "",
+       "axisPlacement": "auto",
+       "barAlignment": 0,
+       "drawStyle": "line",
+       "fillOpacity": 0,
+       "gradientMode": "none",
+       "hideFrom": {
+        "legend": false,
+        "tooltip": false,
+        "viz": false
+       },
+       "lineInterpolation": "linear",
+       "lineWidth": 1,
+       "pointSize": 5,
+       "scaleDistribution": {
+        "type": "linear"
+       },
+       "showPoints": "auto",
+       "spanNulls": false,
+       "stacking": {
+        "group": "A",
+        "mode": "none"
+       },
+       "thresholdsStyle": {
+        "mode": "off"
+       }
+      },
+      "mappings": [],
+      "thresholds": {
+       "mode": "absolute",
+       "steps": [
+        {
+         "color": "green",
+         "value": null
+        },
+        {
+         "color": "red",
+         "value": 80
+        }
+       ]
+      }
+     },
+     "overrides": []
+    },
+    "gridPos": {
+     "h": 9,
+     "w": 12,
+     "x": 0,
+     "y": 8
     },
     "id": 2,
     "options": {
@@ -143,6 +218,7 @@
     "type": "timeseries"
    }
   ],
+  "refresh": "",
   "schemaVersion": 36,
   "style": "dark",
   "tags": [],
@@ -155,9 +231,9 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "dashboard_5",
+  "title": "dashboard_6",
   "uid": "HlGos2Unz",
-  "version": 1,
+  "version": 4,
   "weekStart": ""
  }
 }
