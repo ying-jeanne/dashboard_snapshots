@@ -10,10 +10,10 @@
   "url": "/d/HlGos2Unz/dashboard_6",
   "expires": "0001-01-01T00:00:00Z",
   "created": "2022-04-11T11:27:51+02:00",
-  "updated": "2022-04-11T12:20:31+02:00",
+  "updated": "2022-04-11T14:43:27+02:00",
   "updatedBy": "admin",
   "createdBy": "admin",
-  "version": 4,
+  "version": 5,
   "hasAcl": false,
   "isFolder": false,
   "folderId": 179,
@@ -126,6 +126,82 @@
      "x": 0,
      "y": 0
     },
+    "id": 6,
+    "options": {
+     "legend": {
+      "calcs": [],
+      "displayMode": "list",
+      "placement": "bottom"
+     },
+     "tooltip": {
+      "mode": "single",
+      "sort": "none"
+     }
+    },
+    "title": "Panel Title",
+    "type": "timeseries"
+   },
+   {
+    "datasource": {
+     "type": "testdata",
+     "uid": "PD8C576611E62080A"
+    },
+    "fieldConfig": {
+     "defaults": {
+      "color": {
+       "mode": "palette-classic"
+      },
+      "custom": {
+       "axisLabel": "",
+       "axisPlacement": "auto",
+       "barAlignment": 0,
+       "drawStyle": "line",
+       "fillOpacity": 0,
+       "gradientMode": "none",
+       "hideFrom": {
+        "legend": false,
+        "tooltip": false,
+        "viz": false
+       },
+       "lineInterpolation": "linear",
+       "lineWidth": 1,
+       "pointSize": 5,
+       "scaleDistribution": {
+        "type": "linear"
+       },
+       "showPoints": "auto",
+       "spanNulls": false,
+       "stacking": {
+        "group": "A",
+        "mode": "none"
+       },
+       "thresholdsStyle": {
+        "mode": "off"
+       }
+      },
+      "mappings": [],
+      "thresholds": {
+       "mode": "absolute",
+       "steps": [
+        {
+         "color": "green",
+         "value": null
+        },
+        {
+         "color": "red",
+         "value": 80
+        }
+       ]
+      }
+     },
+     "overrides": []
+    },
+    "gridPos": {
+     "h": 8,
+     "w": 12,
+     "x": 0,
+     "y": 8
+    },
     "id": 4,
     "options": {
      "legend": {
@@ -200,7 +276,7 @@
      "h": 9,
      "w": 12,
      "x": 0,
-     "y": 8
+     "y": 16
     },
     "id": 2,
     "options": {
@@ -233,7 +309,7 @@
   "timezone": "",
   "title": "dashboard_6",
   "uid": "HlGos2Unz",
-  "version": 4,
+  "version": 5,
   "weekStart": ""
  }
 }
